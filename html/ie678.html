@@ -1,0 +1,22 @@
+<span style="font-size:18px;"><!– 默认先调用css.css样式表 –>
+<link rel="stylesheet" type="text/css" href="css.css" />
+<!–[if IE 7]>
+<!– 如果IE浏览器版是7,调用ie7.css样式表 –>
+<link rel="stylesheet" type="text/css" href="ie7.css" />
+<![endif]–>
+
+<!–[if lte IE 6]>
+<!– 如果IE浏览器版本小于等于6,调用ie.css样式表 –>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]–>
+</span>
+
+<style>
+  .color {
+    color: #fff\9; /*ie678 */
+    *color:#ff0; /*ie 67 */
+    _color: #f00; /*ie6 */
+  }
+</style>
+<span style='font-size: 18px;' class='color'>看我颜色</span>
+  
