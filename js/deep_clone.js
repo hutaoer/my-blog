@@ -1,5 +1,5 @@
 // 深拷贝
-
+// 这样写，会爆栈
 function deepClone(obj = {}) {
   let res;
   if (obj instanceof Array) {
